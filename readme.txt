@@ -16,6 +16,10 @@ You can send mails to all users or to certain categories of users.
 To send letters, you can use the php functions such as sending emails, wordpress functions, or send an email through the SMTP server.
 You can also do a bulk mailing for a certain period of time.
 
+<a href="http://wordpress.org/plugins/sender/faq/" target="_blank">FAQ</a>
+
+<a href="http://support.bestwebsoft.com" target="_blank">Support</a>
+
 = Translate =
 
 * Russian (ru_RU)
@@ -78,7 +82,7 @@ Please make sure that the problem hasn't been discussed yet on our forum (<a hre
 
 == Changelog ==
 
-= V0.1 =
+= V0.1 - 12.02.2014 =
 * NEW: Russian language files were added to the plugin.
 
 == Upgrade Notice ==
