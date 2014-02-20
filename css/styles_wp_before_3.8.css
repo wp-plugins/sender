@@ -59,6 +59,16 @@ a.toplevel_page_mail_send_user:hover,
 	font-weight: bold;
 }
 
+.sndr-preloader {
+	position: absolute;
+	top: 23px;
+	left: -9px;
+	width: 16px;
+	height: 16px;
+	background: url( '../images/preloader.gif' );
+	background-size: 100%;
+}
+
 /**
  * Mail editor page
  */
@@ -184,6 +194,10 @@ a.toplevel_page_mail_send_user:hover,
 
 
 @media only screen and ( max-width: 782px ) {
+	input[type="radio"] {
+		margin-bottom: 10px;
+	}
+
 	#sndr-mail-send-table label {
 		float: none;
 		vertical-align: top;

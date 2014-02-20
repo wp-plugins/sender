@@ -611,12 +611,15 @@ if ( ! function_exists( 'bws_add_menu_render' ) ) {
 							<table class="bws_system_info">
 								<thead><tr><th><?php _e( 'Inactive Plugins', 'bestwebsoft' ); ?></th><th></th></tr></thead>
 								<tbody>
-								<?php foreach ( $system_info['inactive_plugins'] as $key => $value ) { ?>	
-									<tr>
-										<td scope="row"><?php echo $key; ?></td>
-										<td scope="row"><?php echo $value; ?></td>
-									</tr>	
-								<?php } ?>
+								<?php
+								if ( ! empty( $system_info['inactive_plugins'] ) ) {
+									foreach ( $system_info['inactive_plugins'] as $key => $value ) { ?>	
+										<tr>
+											<td scope="row"><?php echo $key; ?></td>
+											<td scope="row"><?php echo $value; ?></td>
+										</tr>	
+									<?php }
+								} ?>
 								</tbody>
 							</table>
 							<div class="clear"></div>						
@@ -963,12 +966,15 @@ if ( ! function_exists( 'bws_add_menu_render' ) ) {
 						<table class="bws_system_info">
 							<thead><tr><th><?php _e( 'Inactive Plugins', 'bestwebsoft' ); ?></th><th></th></tr></thead>
 							<tbody>
-							<?php foreach ( $system_info['inactive_plugins'] as $key => $value ) { ?>	
-								<tr>
-									<td scope="row"><?php echo $key; ?></td>
-									<td scope="row"><?php echo $value; ?></td>
-								</tr>	
-							<?php } ?>
+							<?php
+							if ( ! empty( $system_info['inactive_plugins'] ) ) {
+								foreach ( $system_info['inactive_plugins'] as $key => $value ) { ?>	
+									<tr>
+										<td scope="row"><?php echo $key; ?></td>
+										<td scope="row"><?php echo $value; ?></td>
+									</tr>	
+								<?php } 
+							} ?>
 							</tbody>
 						</table>
 						<div class="clear"></div>						

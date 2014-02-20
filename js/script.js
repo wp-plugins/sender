@@ -1,6 +1,5 @@
 (function( $ ){
 	$( document ).ready( function() {
-		
 		/**
 		 * Mark checkboxes on mail editor page
 		 */
@@ -35,6 +34,7 @@
 			});
 			counter.text( usersNumber );
 		});
+
 		/* 
 		 *add notice about changing in the settings page 
 		 */
@@ -44,6 +44,7 @@
 				$( '#sndr-settings-notice' ).css( 'display', 'block' );
 			};
 		});
+
 		/**
 		 * calculte maximum number of sent mails and show confirm-window if user enter too large value
 		 */
@@ -78,11 +79,35 @@
 		});
 
 		/**
-		 * mark <input type="radio"/> which placed before <select> as "checked"
+		 * 
 		 */
-		$( 'select[name="sndr_user_email"]').focus( function() {
-			$('#sndr_select_from_field').attr( 'checked', 'checked' );
-			$( '.updated.fade' ).css( 'display', 'none' );
+		$( 'select[name="sndr_from_admin_name"]' ).focus( function() {
+			$( '#sndr_select_from_field' ).attr( 'checked', 'checked' );
+			$( 'input[name="sndr_from_email"]' ).attr( 'disabled', true );
+			sndrShowEmail( $( this ).val() );
+		}).change( function() {
+			sndrShowEmail( $( this ).val() );
+		});
+
+		$( 'input[name="sndr_from_custom_name"]' ).focus( function() {
+			$('#sndr_select_from_custom_field').attr( 'checked', 'checked' );
+			$( 'input[name="sndr_from_email"]' ).attr( 'disabled', false ).val( '' );
+		});
+
+		if ( $('#sndr_select_from_field').is( ':checked' ) ) {
+			$( 'input[name="sndr_from_email"]' ).attr( 'disabled', true );
+		}
+		$( '#sndr_select_from_field' ).change( function() {
+			if ( $( this ).is( ':checked' ) ) {
+				$( 'input[name="sndr_from_email"]' ).attr( 'disabled', true );
+				sndrShowEmail( $( 'select[name="sndr_from_admin_name"]' ).val() );
+			}
+		});
+
+		$( '#sndr_select_from_custom_field' ).change( function() {
+			if ( $( this ).is( ':checked' ) ) {
+				$( 'input[name="sndr_from_email"]' ).attr( 'disabled', false ).val( '' );
+			}
 		});
 
 		/**
@@ -114,6 +139,17 @@
 		});
 
 		/**
+		 * event on click on submit button on settings page
+		 */
+		$( '#settings-form-submit' ).click( function() {
+			if( $( 'input[name="sndr_from_email"]' ).is( ':disabled' ) ) {
+				$( 'input[name="sndr_from_email"]' ).attr( 'disabled', false );
+			}
+			$( this ).trigger( 'click' );
+			return false;
+		});
+		
+		/**
 		 * show not necessary columns on report page
 		 */
 		if ( ! $( '#subject-hide' ).is( ':checked' ) ) {
@@ -136,3 +172,24 @@
 		}
 	});
 })(jQuery);
+
+function sndrShowEmail ( adminName ) {
+	( function( $ ) {
+		$.ajax({
+			type: "POST",
+			url: ajaxurl,
+			data: { action: 'sndr_show_email', display_name: adminName },
+			beforeSend: function() {
+				$( 'input[name="sndr_from_email"]' ).parent().append( '<div class="sndr-preloader"></div>' );
+			},
+			success: function ( result ) {
+				$( '.sndr-preloader' ).remove();
+				$( 'input[name="sndr_from_email"]' ).val( result );
+			},
+			error: function( request, status, error ) {
+				alert( error + request.status );
+				errors == 0;
+			}
+		});
+	})(jQuery);
+}

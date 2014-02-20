@@ -4,7 +4,7 @@ Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10
 Tags: mail, send mail, email
 Requires at least: 3.1
 Tested up to: 3.8.1
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,6 +19,13 @@ You can also do a bulk mailing for a certain period of time.
 <a href="http://wordpress.org/plugins/sender/faq/" target="_blank">FAQ</a>
 
 <a href="http://support.bestwebsoft.com" target="_blank">Support</a>
+
+= Recommended Plugins =
+
+The author of the Sender also recommends the following plugins:
+
+* <a href="http://wordpress.org/plugins/updater/">Updater</a> - This plugin updates WordPress core and the plugins to the recent versions. You can also use the auto mode or manual mode for updating and set email notifications.
+There is also a premium version of the plugin <a href="http://bestwebsoft.com/plugin/updater-pro/?k=94d3b6d567ade1cd7a988b80874cdee7">Updater Pro</a> with more useful features available. It can make backup of all your files and database before updating. Also it can forbid some plugins or WordPress Core update.
 
 = Translate =
 
@@ -82,10 +89,17 @@ Please make sure that the problem hasn't been discussed yet on our forum (<a hre
 
 == Changelog ==
 
-= V0.1 - 12.02.2014 =
+= V0.2 - 20.02.2014 =
+* Update: Database tables is renamed. 
+* Update: Changed structure of settings page.
+
+= V0.1 =
 * NEW: Russian language files were added to the plugin.
 
 == Upgrade Notice ==
+
+= V0.2 =
+Database tables is renamed.  Changed structure of settings page.
 
 = V0.1 =
 Russian language files were added to the plugin.

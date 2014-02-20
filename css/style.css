@@ -35,7 +35,6 @@ div #icon-options-general.icon32-bws {
 	padding-left: 8px;
 }
 
-
 .sndr-mail-set{
 	font-size: 25px;
 	font-weight: normal;
@@ -50,6 +49,16 @@ div #icon-options-general.icon32-bws {
 #sndr-calculate {
 	color: green;
 	font-weight: bold;
+}
+
+.sndr-preloader {
+	position: absolute;
+	top: 23px;
+	left: -9px;
+	width: 16px;
+	height: 16px;
+	background: url( '../images/preloader.gif' );
+	background-size: 100%;
 }
 
 /**
@@ -169,6 +178,10 @@ div #icon-options-general.icon32-bws {
 
 
 @media only screen and ( max-width: 782px ) {
+	input[type="radio"] {
+		margin-bottom: 10px;
+	}
+
 	#sndr-mail-send-table label {
 		float: none;
 		vertical-align: top;

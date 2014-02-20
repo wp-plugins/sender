@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sender\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-07 20:19+0300\n"
-"PO-Revision-Date: 2014-02-07 20:19+0300\n"
+"POT-Creation-Date: 2014-02-14 16:17+0300\n"
+"PO-Revision-Date: 2014-02-14 16:19+0300\n"
 "Last-Translator: kad <bwsuakad@gmail.com>\n"
 "Language-Team: BestWebSoft team <wp@bestwebsoft.com>\n"
 "Language: ru_RU\n"
@@ -55,399 +55,387 @@ msgstr "FAQ"
 msgid "Support"
 msgstr "Поддержка"
 
-#: sender.php:245
+#: sender.php:244
 msgid "Close Report"
 msgstr "Закрыть отчет"
 
-#: sender.php:246
-#: sender.php:789
+#: sender.php:245
+#: sender.php:793
 msgid "Show Report"
 msgstr "Показать отчет"
 
-#: sender.php:247
+#: sender.php:246
 msgid "The data of this report can't be found."
 msgstr "Нет данных по отчету."
 
-#: sender.php:248
+#: sender.php:247
 msgid "Error while sending request."
 msgstr "Ошибка при отсылке запроса"
 
-#: sender.php:249
+#: sender.php:248
 msgid "Are you sure that you want to enter such a large value?"
 msgstr "Вы уверены, что необходимо такое большое значение?"
 
-#: sender.php:294
+#: sender.php:298
 msgid "You may have entered too large a value in the \"Interval for sending mail\" option. Check please."
 msgstr "Возможно, Вы ввели слишком большое значение в поле \"Интервал между отправками сообщений\". Проверьте, пожалуйста."
 
-#: sender.php:308
+#: sender.php:312
 msgid "You may have entered too large a value in the \"Number of sent messages at one time\" option. Check please."
 msgstr "Возможно, Вы ввели слишком большое значение в поле \"Количество одновременно отправляемых сообщений\". Проверьте, пожалуйста."
 
-#: sender.php:328
+#: sender.php:327
 msgid "Such a user does not exist. Settings are not saved."
 msgstr "Пользователь не существует. Настройки не сохранены."
 
-#: sender.php:332
-#: sender.php:338
+#: sender.php:336
 msgid "Please enter a valid email address in the 'FROM' field. Settings are not saved."
 msgstr "Пожалуйста, введите правильный адрес электронной почты в поле \"От\". Настройки не сохранены."
 
-#: sender.php:377
+#: sender.php:373
 msgid "Settings saved."
 msgstr "Настройки сохранены."
 
-#: sender.php:395
+#: sender.php:391
 msgid "Notice:"
 msgstr "Внимание:"
 
-#: sender.php:395
+#: sender.php:391
 msgid "The plugin's settings have been changed. In order to save them please don't forget to click the 'Save Changes' button."
 msgstr "Настройки плагина были изменены.  Для сохранения настроек не забудьте нажать на кнопку \"Сохранить изменения\"."
 
-#: sender.php:401
+#: sender.php:397
 msgid "Interval for sending mail"
 msgstr "Интервал между отправками сообщений"
 
-#: sender.php:402
+#: sender.php:398
 msgid "(min)"
 msgstr "(мин.)"
 
-#: sender.php:405
+#: sender.php:401
 msgid "Number of messages sent at one time"
 msgstr "Количество одновременно отправляемых сообщений"
 
-#: sender.php:410
+#: sender.php:406
 msgid "maximum number of sent mails:"
 msgstr "максимальное число отправляемых сообщений:"
 
-#: sender.php:410
+#: sender.php:406
 msgid "per hour"
 msgstr "в час"
 
-#: sender.php:410
+#: sender.php:406
 msgid "Please make sure that this number is smaller than max allowed number of sent mails from your hosting account."
 msgstr "Удостоверьтесь, что это значение меньше, чем максимально разрешенное количество отправляемых сообщений с Вашего хостинг аккаунта."
 
-#: sender.php:421
-msgid "The text in the 'From' field"
-msgstr "Текст в поле \"От\""
+#: sender.php:417
+msgid "The user on whose behalf mailout will be created"
+msgstr "Пользователь, от чьего имени будет создана рассылка"
 
 #: sender.php:425
-msgid "Create a username"
-msgstr "Создать пользователя"
+msgid "The name of the user be used in the 'From' field."
+msgstr "Это имя будет использоваться в поле \"От\""
 
-#: sender.php:430
-msgid "The name of the user who fills the form will be used in the field 'From'."
-msgstr "Имя, введенное в эту форму, будет использовано а поле \"От\". "
-
-#: sender.php:433
+#: sender.php:428
 msgid "This text will be used in the 'FROM' field"
 msgstr "Этот текст будет использоваться в поле \"От\" "
 
-#: sender.php:437
-msgid "The email address in the 'From' field"
-msgstr "E-mail для поля \"От\""
+#: sender.php:432
+msgid "User Email"
+msgstr "Электронный адрес"
 
-#: sender.php:439
-msgid "User email"
-msgstr "Ваш email"
-
-#: sender.php:440
-msgid "The email address of the user who fills the form will be used in the field 'From'."
-msgstr "E-mail адрес пользователя, заполнившего форму, будет отображаться в поле \"От\" "
-
-#: sender.php:443
+#: sender.php:435
 msgid "This email address will be used in the 'From' field."
 msgstr "Этот e-mail будет использоваться в поле \"От\""
 
-#: sender.php:450
+#: sender.php:442
 msgid "Additional options"
 msgstr "Дополнительные параметры"
 
-#: sender.php:455
+#: sender.php:447
 msgid "What to use?"
 msgstr "Что использовать?"
 
-#: sender.php:459
+#: sender.php:451
 msgid "Wp-mail"
 msgstr "Wp-mail"
 
-#: sender.php:459
+#: sender.php:451
 msgid "You can use the wp_mail function for mailing"
 msgstr "Вы можете использовать функцию wordpress wp_mail для расссылки"
 
-#: sender.php:463
+#: sender.php:455
 msgid "Mail"
 msgstr "Сообщение"
 
-#: sender.php:463
+#: sender.php:455
 msgid "To send mail you can use the php mail function"
 msgstr "Для отправки писем Вы можете использовать функции PHP"
 
-#: sender.php:467
+#: sender.php:459
 msgid "SMTP"
 msgstr "SMTP"
 
-#: sender.php:467
+#: sender.php:459
 msgid "You can use SMTP for sending mails"
 msgstr "Вы можете использовать SMTP для отправки писем"
 
-#: sender.php:472
+#: sender.php:464
 msgid "SMTP Settings"
 msgstr "SMTP Настройки"
 
-#: sender.php:476
+#: sender.php:468
 msgid "SMTP server"
 msgstr "SMTP Сервер"
 
-#: sender.php:480
+#: sender.php:472
 msgid "SMTP port"
 msgstr "SMTP Порт"
 
-#: sender.php:484
+#: sender.php:476
 msgid "SMTP account"
 msgstr "SMTP Аккаунт"
 
-#: sender.php:488
+#: sender.php:480
 msgid "SMTP password"
 msgstr "SMTP Пароль"
 
-#: sender.php:492
+#: sender.php:484
 msgid "Use SMTP SSL"
 msgstr "Использовать SMTP SSL"
 
-#: sender.php:498
+#: sender.php:490
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: sender.php:578
+#: sender.php:582
 msgid "Send to"
 msgstr "Кому отправить"
 
-#: sender.php:582
+#: sender.php:586
 msgid "all"
 msgstr "все"
 
-#: sender.php:599
+#: sender.php:603
 msgid "Number of mails which would be sent"
 msgstr "Количество сообщений, которое будет отправлено "
 
-#: sender.php:609
+#: sender.php:613
 msgid "WARNING: as you are using multisite, the total number of sent mails may not coincide with the counter. It will be fixed in the stable version of plugin."
 msgstr "Внимание: так как Вы импользуете Мультисайт, то общее число отправленных писем может не совпадать с эти счетчиком. Это будет исправлено в стабильной версии плагина."
 
-#: sender.php:614
-#: sender.php:704
+#: sender.php:618
+#: sender.php:708
 msgid "Subject"
 msgstr "Тема"
 
-#: sender.php:620
+#: sender.php:624
 msgid "Content"
 msgstr "Контент"
 
-#: sender.php:627
+#: sender.php:631
 msgid "Send"
 msgstr "Отослать"
 
-#: sender.php:650
+#: sender.php:654
 msgid "report"
 msgstr "отчет"
 
-#: sender.php:651
+#: sender.php:655
 msgid "reports"
 msgstr "отчеты"
 
-#: sender.php:685
+#: sender.php:689
 msgid "No messages sent"
 msgstr "Отправленных сообщений нет"
 
-#: sender.php:705
+#: sender.php:709
+#: sender.php:999
+#: sender.php:1007
 msgid "Status"
 msgstr "Статус"
 
-#: sender.php:706
+#: sender.php:710
 msgid "Date"
 msgstr "Дата"
 
-#: sender.php:744
+#: sender.php:748
 msgid "All"
 msgstr "В се"
 
-#: sender.php:745
-#: sender.php:823
+#: sender.php:749
+#: sender.php:827
 msgid "In progress"
 msgstr "В процессе"
 
-#: sender.php:746
+#: sender.php:750
 msgid "Done"
 msgstr "Выполнено"
 
-#: sender.php:747
+#: sender.php:751
 msgid "Trash"
 msgstr "Корзина"
 
-#: sender.php:757
+#: sender.php:761
 msgid "Delete Reports"
 msgstr "Удалить отчеты"
 
-#: sender.php:793
+#: sender.php:797
 msgid "Delete Report"
 msgstr "Удалить отчет"
 
-#: sender.php:822
-#: sender.php:919
+#: sender.php:826
+#: sender.php:923
 msgid "All Done"
 msgstr "Выполнено"
 
-#: sender.php:822
-#: sender.php:919
+#: sender.php:826
+#: sender.php:923
 msgid "done"
 msgstr "выполнено"
 
-#: sender.php:823
-#: sender.php:921
+#: sender.php:827
+#: sender.php:925
 msgid "In Progress"
 msgstr "В процессе"
 
-#: sender.php:866
+#: sender.php:870
 msgid "No Subject"
 msgstr "Без Темы"
 
-#: sender.php:924
+#: sender.php:928
 msgid "Unknown Status"
 msgstr "Неизвестный статус"
 
-#: sender.php:994
-#: sender.php:1002
+#: sender.php:998
+#: sender.php:1006
 msgid "Username"
 msgstr "Пользователь"
 
-#: sender.php:995
-#: sender.php:1003
-msgid "Ship"
-msgstr "Получено"
-
-#: sender.php:996
-#: sender.php:1004
+#: sender.php:1000
+#: sender.php:1008
 msgid "View"
 msgstr "Прочитано"
 
-#: sender.php:997
-#: sender.php:1005
+#: sender.php:1001
+#: sender.php:1009
 msgid "Try"
 msgstr "Попыток"
 
-#: sender.php:1017
+#: sender.php:1019
+msgid "User was deleted"
+msgstr "Пользователь был удален."
+
+#: sender.php:1025
 msgid "received"
 msgstr "отправлено"
 
-#: sender.php:1019
+#: sender.php:1027
 msgid "in the queue"
 msgstr "в очереди"
 
-#: sender.php:1024
+#: sender.php:1032
 msgid "read"
 msgstr "прочитано"
 
-#: sender.php:1026
+#: sender.php:1034
 msgid "not read"
 msgstr "не прочитано"
 
-#: sender.php:1037
+#: sender.php:1045
 msgid "The list of subscribers can't be found."
 msgstr "Список пользователей не найден."
 
-#: sender.php:1063
+#: sender.php:1071
 msgid "Total Subscribers: "
 msgstr "Подписчиков: "
 
-#: sender.php:1065
+#: sender.php:1073
 msgid "Number of Subscribers on Page"
 msgstr "Количество подписчиков на странице "
 
-#: sender.php:1066
+#: sender.php:1074
 msgid "on page"
 msgstr "на странице"
 
-#: sender.php:1092
+#: sender.php:1100
 msgid "Go to the First Page"
 msgstr "На первую страницу"
 
-#: sender.php:1093
+#: sender.php:1101
 msgid "Go to the Previous Page"
 msgstr "На предидущую страницу"
 
-#: sender.php:1101
+#: sender.php:1109
 msgid "Current Page"
 msgstr "Текущая страница"
 
-#: sender.php:1102
+#: sender.php:1110
 msgid "of "
 msgstr "из "
 
-#: sender.php:1102
+#: sender.php:1110
 msgid " pages"
 msgstr "страниц"
 
-#: sender.php:1122
+#: sender.php:1130
 msgid "Go to the Next Page"
 msgstr "На следующую страницу"
 
-#: sender.php:1123
+#: sender.php:1131
 msgid "Go to the Last Page"
 msgstr "На последнюю страницу"
 
-#: sender.php:1149
+#: sender.php:1157
 msgid "Reports per page"
 msgstr "Отчетов на странице"
 
-#: sender.php:1182
+#: sender.php:1186
 msgid "Sender Reports"
 msgstr "Sender Отчеты"
 
-#: sender.php:1192
+#: sender.php:1196
 #, php-format
 msgid "Search results for &#8220;%s&#8221;"
 msgstr "Результаты поиска для &#8220;%s&#8221;"
 
-#: sender.php:1240
+#: sender.php:1244
 msgid "You need to choose some reports."
 msgstr "Вам необходимо выбрать несколько отчетов."
 
-#: sender.php:1241
+#: sender.php:1245
 msgid "Error while deleting report."
 msgstr "Ошибка при удалении отчетов."
 
-#: sender.php:1242
+#: sender.php:1246
 msgid "Error while deleting mail."
 msgstr "Ошибка при удалении письма."
 
-#: sender.php:1243
+#: sender.php:1247
 msgid "You cannot send an empty mail."
 msgstr "Вы не можете отправлять пустые сообщения."
 
-#: sender.php:1244
+#: sender.php:1248
 msgid "Select a list of users to send messages."
 msgstr "Выберите список пользователей для отправки сообщений."
 
-#: sender.php:1245
+#: sender.php:1249
 msgid "It is impossible to get the list of users."
 msgstr "Невозможно получить список пользователей."
 
-#: sender.php:1246
+#: sender.php:1250
 msgid "Please, try it later."
 msgstr "Пожалуйста, попробуйте, позднее."
 
-#: sender.php:1247
+#: sender.php:1251
 msgid "New mailout was created successfully."
 msgstr "Новая рассылка была успешно создана."
 
-#: sender.php:1248
+#: sender.php:1252
 msgid "Mailout was not create"
 msgstr "Рассылка на создана"
 
-#: sender.php:1276
+#: sender.php:1284
 #, php-format
 msgid "Report was deleted."
 msgid_plural "%s Reports were deleted."
@@ -456,17 +444,40 @@ msgstr[1] "%s отчета было удалено."
 msgstr[2] "%s отчетов было удалено."
 msgstr[3] "%s отчет было удален."
 
-#: sender.php:1424
+#: sender.php:1430
 msgid "Mail setting"
 msgstr "Настройки сообщения"
 
-#: sender.php:1427
+#: sender.php:1433
 msgid "Subscribe"
 msgstr "Подписка"
 
-#: sender.php:1459
+#: sender.php:1486
 msgid "Your interval"
 msgstr "Установить интервал"
+
+#~ msgid "The text in the 'From' field"
+#~ msgstr "Текст в поле \"От\""
+
+#~ msgid ""
+#~ "The name of the user who fills the form will be used in the field 'From'."
+#~ msgstr "Имя, введенное в эту форму, будет использовано а поле \"От\". "
+
+#~ msgid "The email address in the 'From' field"
+#~ msgstr "E-mail для поля \"От\""
+
+#~ msgid "Create a username"
+#~ msgstr "Создать пользователя"
+
+#~ msgid ""
+#~ "The email address of the user who fills the form will be used in the "
+#~ "field 'From'."
+#~ msgstr ""
+#~ "E-mail адрес пользователя, заполнившего форму, будет отображаться в поле "
+#~ "\"От\" "
+
+#~ msgid "Ship"
+#~ msgstr "Получено"
 
 #~ msgid "Text in tag"
 #~ msgstr "Текст в тэге"
