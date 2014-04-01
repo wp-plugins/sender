@@ -1,0 +1,669 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sender\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-06 11:08+0300\n"
+"PO-Revision-Date: 2014-03-06 11:08+0300\n"
+"Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
+"Language-Team: BestWebSoft team <wp@bestwebsoft.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n%10==1 && n%100!=11) ? 3 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sender.php:40
+#: sender.php:41
+msgid "Sender"
+msgstr "Sender"
+
+#: sender.php:42
+msgid "Reports"
+msgstr "Отчеты"
+
+#: sender.php:82
+msgid "requires"
+msgstr "необходимо"
+
+#: sender.php:82
+msgid "or higher, that is why it has been deactivated! Please upgrade WordPress and try again."
+msgstr "или выше, по-этому плагин нобходимо деактивировать! Пожалуйста, обновите WordPress и попробуйте снова."
+
+#: sender.php:82
+msgid "Back to the WordPress"
+msgstr "Назад к WordPress"
+
+#: sender.php:82
+msgid "Plugins page"
+msgstr "Поддержка"
+
+#: sender.php:195
+#: sender.php:212
+msgid "Settings"
+msgstr "Настройки"
+
+#: sender.php:213
+msgid "FAQ"
+msgstr "FAQ"
+
+#: sender.php:214
+msgid "Support"
+msgstr "Поддержка"
+
+#: sender.php:336
+msgid "Close Report"
+msgstr "Закрыть отчет"
+
+#: sender.php:337
+#: sender.php:885
+msgid "Show Report"
+msgstr "Показать отчет"
+
+#: sender.php:338
+msgid "The data of this report can't be found."
+msgstr "Нет данных по отчету."
+
+#: sender.php:339
+msgid "Error while sending request."
+msgstr "Ошибка при отсылке запроса"
+
+#: sender.php:340
+msgid "Are you sure that you want to enter such a large value?"
+msgstr "Вы уверены, что необходимо такое большое значение?"
+
+#: sender.php:372
+msgid "You may have entered too large a value in the \"Interval for sending mail\" option. Check please."
+msgstr "Возможно, Вы ввели слишком большое значение в поле \"Интервал между отправками сообщений\". Проверьте, пожалуйста."
+
+#: sender.php:386
+msgid "You may have entered too large a value in the \"Number of sent messages at one time\" option. Check please."
+msgstr "Возможно, Вы ввели слишком большое значение в поле \"Количество одновременно отправляемых сообщений\". Проверьте, пожалуйста."
+
+#: sender.php:405
+msgid "Such a user does not exist. Settings are not saved."
+msgstr "Пользователь не существует. Настройки не сохранены."
+
+#: sender.php:415
+msgid "Please enter a valid email address in the 'FROM' field. Settings are not saved."
+msgstr "Пожалуйста, введите правильный адрес электронной почты в поле \"От\". Настройки не сохранены."
+
+#: sender.php:452
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: sender.php:471
+msgid "Notice:"
+msgstr "Внимание:"
+
+#: sender.php:471
+msgid "The plugin's settings have been changed. In order to save them please don't forget to click the 'Save Changes' button."
+msgstr "Настройки плагина были изменены.  Для сохранения настроек не забудьте нажать на кнопку \"Сохранить изменения\"."
+
+#: sender.php:477
+msgid "Interval for sending mail"
+msgstr "Интервал между отправками сообщений"
+
+#: sender.php:478
+msgid "(min)"
+msgstr "(мин.)"
+
+#: sender.php:481
+msgid "Number of messages sent at one time"
+msgstr "Количество одновременно отправляемых сообщений"
+
+#: sender.php:486
+msgid "maximum number of sent mails:"
+msgstr "максимальное число отправляемых сообщений:"
+
+#: sender.php:486
+msgid "per hour"
+msgstr "в час"
+
+#: sender.php:486
+msgid "Please make sure that this number is smaller than max allowed number of sent mails from your hosting account."
+msgstr "Удостоверьтесь, что это значение меньше, чем максимально разрешенное количество отправляемых сообщений с Вашего хостинг аккаунта."
+
+#: sender.php:497
+msgid "The user on whose behalf mailout will be created"
+msgstr "Пользователь, от чьего имени будет создана рассылка"
+
+#: sender.php:505
+msgid "The name of the user be used in the 'From' field."
+msgstr "Это имя будет использоваться в поле \"От\""
+
+#: sender.php:508
+msgid "This text will be used in the 'FROM' field"
+msgstr "Этот текст будет использоваться в поле \"От\" "
+
+#: sender.php:512
+msgid "User Email"
+msgstr "Электронный адрес"
+
+#: sender.php:515
+msgid "This email address will be used in the 'From' field."
+msgstr "Этот e-mail будет использоваться в поле \"От\""
+
+#: sender.php:522
+msgid "Additional options"
+msgstr "Дополнительные параметры"
+
+#: sender.php:527
+msgid "What to use?"
+msgstr "Что использовать?"
+
+#: sender.php:531
+msgid "Wp-mail"
+msgstr "Wp-mail"
+
+#: sender.php:531
+msgid "You can use the wp_mail function for mailing"
+msgstr "Вы можете использовать функцию wordpress wp_mail для расссылки"
+
+#: sender.php:535
+msgid "Mail"
+msgstr "Сообщение"
+
+#: sender.php:535
+msgid "To send mail you can use the php mail function"
+msgstr "Для отправки писем Вы можете использовать функции PHP"
+
+#: sender.php:539
+msgid "SMTP"
+msgstr "SMTP"
+
+#: sender.php:539
+msgid "You can use SMTP for sending mails"
+msgstr "Вы можете использовать SMTP для отправки писем"
+
+#: sender.php:544
+msgid "SMTP Settings"
+msgstr "SMTP Настройки"
+
+#: sender.php:548
+msgid "SMTP server"
+msgstr "SMTP Сервер"
+
+#: sender.php:552
+msgid "SMTP port"
+msgstr "SMTP Порт"
+
+#: sender.php:556
+msgid "SMTP account"
+msgstr "SMTP Аккаунт"
+
+#: sender.php:560
+msgid "SMTP password"
+msgstr "SMTP Пароль"
+
+#: sender.php:564
+msgid "Use SMTP SSL"
+msgstr "Использовать SMTP SSL"
+
+#: sender.php:570
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: sender.php:575
+msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
+msgstr "Если вам понравился плагин то поставте нам 5 звезд на WordPress"
+
+#: sender.php:576
+msgid "Rate the plugin"
+msgstr "Оценить плагин"
+
+#: sender.php:579
+msgid "If there is something wrong about it, please contact us"
+msgstr "Если у вас есть какие-то вопросы, обращайтесь"
+
+#: sender.php:674
+msgid "Send to"
+msgstr "Кому отправить"
+
+#: sender.php:678
+msgid "all"
+msgstr "все"
+
+#: sender.php:695
+msgid "Number of mails which would be sent"
+msgstr "Количество сообщений, которое будет отправлено "
+
+#: sender.php:705
+msgid "WARNING: as you are using multisite, the total number of sent mails may not coincide with the counter. It will be fixed in the stable version of plugin."
+msgstr "Внимание: так как Вы импользуете Мультисайт, то общее число отправленных писем может не совпадать с эти счетчиком. Это будет исправлено в стабильной версии плагина."
+
+#: sender.php:710
+#: sender.php:800
+msgid "Subject"
+msgstr "Тема"
+
+#: sender.php:716
+msgid "Content"
+msgstr "Контент"
+
+#: sender.php:723
+msgid "Send"
+msgstr "Отослать"
+
+#: sender.php:746
+msgid "report"
+msgstr "отчет"
+
+#: sender.php:747
+msgid "reports"
+msgstr "отчеты"
+
+#: sender.php:781
+msgid "No messages sent"
+msgstr "Отправленных сообщений нет"
+
+#: sender.php:801
+#: sender.php:1094
+#: sender.php:1102
+msgid "Status"
+msgstr "Статус"
+
+#: sender.php:802
+msgid "Date"
+msgstr "Дата"
+
+#: sender.php:840
+msgid "All"
+msgstr "В се"
+
+#: sender.php:841
+#: sender.php:919
+msgid "In progress"
+msgstr "В процессе"
+
+#: sender.php:842
+msgid "Done"
+msgstr "Выполнено"
+
+#: sender.php:843
+msgid "Trash"
+msgstr "Корзина"
+
+#: sender.php:853
+msgid "Delete Reports"
+msgstr "Удалить отчеты"
+
+#: sender.php:889
+msgid "Delete Report"
+msgstr "Удалить отчет"
+
+#: sender.php:918
+#: sender.php:1018
+msgid "All Done"
+msgstr "Выполнено"
+
+#: sender.php:918
+#: sender.php:1018
+msgid "done"
+msgstr "выполнено"
+
+#: sender.php:919
+#: sender.php:1020
+msgid "In Progress"
+msgstr "В процессе"
+
+#: sender.php:965
+msgid "No Subject"
+msgstr "Без Темы"
+
+#: sender.php:1023
+msgid "Unknown Status"
+msgstr "Неизвестный статус"
+
+#: sender.php:1093
+#: sender.php:1101
+msgid "Username"
+msgstr "Пользователь"
+
+#: sender.php:1095
+#: sender.php:1103
+msgid "View"
+msgstr "Прочитано"
+
+#: sender.php:1096
+#: sender.php:1104
+msgid "Try"
+msgstr "Попыток"
+
+#: sender.php:1114
+msgid "User was deleted"
+msgstr "Пользователь был удален."
+
+#: sender.php:1120
+msgid "received"
+msgstr "отправлено"
+
+#: sender.php:1122
+msgid "in the queue"
+msgstr "в очереди"
+
+#: sender.php:1127
+msgid "read"
+msgstr "прочитано"
+
+#: sender.php:1129
+msgid "not read"
+msgstr "не прочитано"
+
+#: sender.php:1140
+msgid "The list of subscribers can't be found."
+msgstr "Список пользователей не найден."
+
+#: sender.php:1166
+msgid "Total Subscribers: "
+msgstr "Подписчиков: "
+
+#: sender.php:1168
+msgid "Number of Subscribers on Page"
+msgstr "Количество подписчиков на странице "
+
+#: sender.php:1169
+msgid "on page"
+msgstr "на странице"
+
+#: sender.php:1195
+msgid "Go to the First Page"
+msgstr "На первую страницу"
+
+#: sender.php:1196
+msgid "Go to the Previous Page"
+msgstr "На предидущую страницу"
+
+#: sender.php:1204
+msgid "Current Page"
+msgstr "Текущая страница"
+
+#: sender.php:1205
+msgid "of "
+msgstr "из "
+
+#: sender.php:1205
+msgid " pages"
+msgstr "страниц"
+
+#: sender.php:1225
+msgid "Go to the Next Page"
+msgstr "На следующую страницу"
+
+#: sender.php:1226
+msgid "Go to the Last Page"
+msgstr "На последнюю страницу"
+
+#: sender.php:1252
+msgid "Reports per page"
+msgstr "Отчетов на странице"
+
+#: sender.php:1281
+msgid "Sender Reports"
+msgstr "Sender Отчеты"
+
+#: sender.php:1291
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Результаты поиска для &#8220;%s&#8221;"
+
+#: sender.php:1295
+msgid "search"
+msgstr "поиск"
+
+#: sender.php:1339
+msgid "You need to choose some reports."
+msgstr "Вам необходимо выбрать несколько отчетов."
+
+#: sender.php:1340
+msgid "Error while deleting report."
+msgstr "Ошибка при удалении отчетов."
+
+#: sender.php:1341
+msgid "Error while deleting mail."
+msgstr "Ошибка при удалении письма."
+
+#: sender.php:1342
+msgid "You cannot send an empty mail."
+msgstr "Вы не можете отправлять пустые сообщения."
+
+#: sender.php:1343
+msgid "Select a list of users to send messages."
+msgstr "Выберите список пользователей для отправки сообщений."
+
+#: sender.php:1344
+msgid "It is impossible to get the list of users."
+msgstr "Невозможно получить список пользователей."
+
+#: sender.php:1345
+msgid "Please, try it later."
+msgstr "Пожалуйста, попробуйте, позднее."
+
+#: sender.php:1346
+msgid "New mailout was created successfully."
+msgstr "Новая рассылка была успешно создана."
+
+#: sender.php:1347
+msgid "Mailout was not create"
+msgstr "Рассылка на создана"
+
+#: sender.php:1549
+msgid "Subscribe on newsletters"
+msgstr "Подписаться на рассылку"
+
+#: sender.php:1553
+msgid "Sorry, but you denied to subscribe to the newsletter."
+msgstr "Извините, но Вам отказано в возможности подписаться на рассылку."
+
+#: sender.php:1611
+msgid "Your interval"
+msgstr "Установить интервал"
+
+#~ msgid "Report was deleted."
+
+#~ msgid_plural "%s Reports were deleted."
+#~ msgstr[0] "Отчет был удален."
+#~ msgstr[1] "%s отчета было удалено."
+#~ msgstr[2] "%s отчетов было удалено."
+#~ msgstr[3] "%s отчет было удален."
+
+#~ msgid "Mail setting"
+#~ msgstr "Настройки сообщения"
+
+#~ msgid "Subscribe"
+#~ msgstr "Подписка"
+
+#~ msgid "The text in the 'From' field"
+#~ msgstr "Текст в поле \"От\""
+
+#~ msgid ""
+#~ "The name of the user who fills the form will be used in the field 'From'."
+#~ msgstr "Имя, введенное в эту форму, будет использовано а поле \"От\". "
+
+#~ msgid "The email address in the 'From' field"
+#~ msgstr "E-mail для поля \"От\""
+
+#~ msgid "Create a username"
+#~ msgstr "Создать пользователя"
+
+#~ msgid ""
+#~ "The email address of the user who fills the form will be used in the "
+#~ "field 'From'."
+#~ msgstr ""
+#~ "E-mail адрес пользователя, заполнившего форму, будет отображаться в поле "
+#~ "\"От\" "
+
+#~ msgid "Ship"
+#~ msgstr "Получено"
+
+#~ msgid "Text in tag"
+#~ msgstr "Текст в тэге"
+
+#~ msgid "Cant find subscribers list"
+#~ msgstr "Список подписчиков отсутствует"
+
+#~ msgid "Cannot get users list."
+#~ msgstr "Невозможно плучить список пользователей."
+
+#~ msgid "Server"
+#~ msgstr "Сервер"
+
+#~ msgid "Memory usage"
+#~ msgstr "Использование памяти"
+
+#, fuzzy
+#~ msgid "PHP Exif support"
+#~ msgstr "Отправить в поддержку"
+
+#, fuzzy
+#~ msgid "PHP IPTC support"
+#~ msgstr "Отправить в поддержку"
+
+#, fuzzy
+#~ msgid "PHP XML support"
+#~ msgstr "Отправить в поддержку"
+
+#, fuzzy
+#~ msgid "Active Theme"
+#~ msgstr "Активированная тема"
+
+#~ msgid "Please enter a valid email address."
+#~ msgstr "Пожалуйста, введите правильный адрес электронной почты."
+
+#~ msgid "Pro plugins"
+#~ msgstr "Плагины серии PRO"
+
+#~ msgid "Activated plugins"
+#~ msgstr "Активированый плагин"
+
+#~ msgid "Read more"
+#~ msgstr "Читать больше"
+
+#~ msgid "Installed plugins"
+#~ msgstr "Установленный плагин"
+
+#~ msgid "Recommended plugins"
+#~ msgstr "Рекомендованый плагин"
+
+#~ msgid "Download"
+#~ msgstr "Скачать"
+
+#~ msgid "Install %s"
+#~ msgstr "Установить %s"
+
+#~ msgid "Install now from wordpress.org"
+#~ msgstr "Установить сейчас с wordpress.org"
+
+#, fuzzy
+#~ msgid "Free themes"
+#~ msgstr "Рекомендованрые темы"
+
+#~ msgid "Activated theme"
+#~ msgstr "Активированная тема"
+
+#, fuzzy
+#~ msgid "Customize &#8220;%s&#8221;"
+#~ msgstr "Результаты поиска для &#8220;%s&#8221;"
+
+#~ msgid "Installed themes"
+#~ msgstr "Установленные темы"
+
+#~ msgid "Recommended themes"
+#~ msgstr "Рекомендованрые темы"
+
+#, fuzzy
+#~ msgid "System status"
+#~ msgstr "Статус"
+
+#~ msgid "Active Plugins"
+#~ msgstr "Активированные плагины"
+
+#~ msgid "Inactive Plugins"
+#~ msgstr "Неактивированные плагины"
+
+#~ msgid "Send to custom email &#187;"
+#~ msgstr "Отправить на особый e-mail &#187;"
+
+#~ msgid "wordpress mail function"
+#~ msgstr "функция wordpress"
+
+#~ msgid "php mail function"
+#~ msgstr "стандартные функции"
+
+#~ msgid "send mail with smtp"
+#~ msgstr "Отправить сообщение через SMTP "
+
+#~ msgid "Mail send"
+#~ msgstr "Отправить"
+
+#~ msgid "View mail send"
+#~ msgstr "Отправленные"
+
+#~ msgid "Mail settings"
+#~ msgstr "Сообщения"
+
+#, fuzzy
+#~ msgid "Error"
+#~ msgstr "Ошибка!"
+
+#, fuzzy
+#~ msgid "Send email with confirmation"
+#~ msgstr "С подтверждением"
+
+#, fuzzy
+#~ msgid "Your name"
+#~ msgstr "Ваше имя"
+
+#, fuzzy
+#~ msgid "Set Your name that will be displayed in email"
+#~ msgstr "Ваше имя, которое будет отображатся в сообщении"
+
+#, fuzzy
+#~ msgid "Set Your email that will be displayed in email"
+#~ msgstr "Ваш emai, который быдет отображатся при отправке сообщенийl"
+
+#~ msgid "expand"
+#~ msgstr "посмотреть"
+
+#~ msgid "Updated successful!"
+#~ msgstr "Обновление прошло успешно!"
+
+#~ msgid "General settings"
+#~ msgstr "Сообщения"
+
+#~ msgid " Set an interval send mail in minutes"
+#~ msgstr "Установить интервал отправки сообщений"
+
+#~ msgid "Smtp"
+#~ msgstr "Smtp"
+
+#~ msgid " Smtp"
+#~ msgstr "Smtp"
+
+#~ msgid " Smtp ssl"
+#~ msgstr "Smtp ssl"
+
+#~ msgid "Send all:"
+#~ msgstr "Отправить всем"
+
+#~ msgid " Set mail count"
+#~ msgstr "Количество отправляемых сообщений"
+
+#~ msgid " standart mail function"
+#~ msgstr "Стандартная функция отправки сообщений"
+
+#~ msgid "wordpress"
+#~ msgstr "wordpress"
+
+#~ msgid "minutes"
+#~ msgstr "Минуты"
+
+#~ msgid "Mail view"
+#~ msgstr "Просмотр сообщений"
+
+#~ msgid "Every_second"
+#~ msgstr "каждую секунду"
