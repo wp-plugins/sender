@@ -4,7 +4,7 @@ Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=1&
 Tags: bulk mailing, create mailout, email, e-mail, mail, mailout, php, send mail, send mail to administrator, send mail to users, send mail through smtp server, send mail to all users, send mail to categories of users, send mail with php functions, send mail with interval, send multiple messages, sender, sander, sendar, sendr, sender plugin, users, user categories
 Requires at least: 3.1
 Tested up to: 3.9.1
-Stable tag: 0.5
+Stable tag: 0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -95,6 +95,10 @@ Please make sure that the problem hasn't been discussed yet on our forum (<a hre
 
 == Changelog ==
 
+= V0.6 - 06.06.2014 =
+* Budfix : Fixed the bug of saving settings.
+* Budfix : Fixed the error in database request.
+
 = V0.5 - 28.05.2014 =
 * Update : We updated all functionality for wordpress 3.9.1.
 * NEW : The Ukrainian language file is added to the plugin.
@@ -116,6 +120,9 @@ Please make sure that the problem hasn't been discussed yet on our forum (<a hre
 * NEW : Russian language files were added to the plugin.
 
 == Upgrade Notice ==
+
+= V0.6 =
+Fixed the bug of saving settings. Fixed the error in database request.
 
 = V0.5 =
 We updated all functionality for wordpress 3.9.1. The Ukrainian language file is added to the plugin.
