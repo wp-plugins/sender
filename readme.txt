@@ -53,6 +53,8 @@ We can fix some things for free for the users who provide translation of our plu
 2. Activate the plugin via the 'Plugins' menu in WordPress.
 3. Plugin settings are located in 'BWS Plugins', 'Sender'.
 
+<a href="https://docs.google.com/document/d/1IBdIF7YT9VmThlKDefR6Kv_ts6O-xswfZRuDfaxHXoc/edit" target="_blank">View a Step-by-step Instruction on Sender Installation</a>.
+
 == Frequently Asked Questions ==
 
 = How to use the plugin? =
