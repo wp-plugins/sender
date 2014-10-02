@@ -104,7 +104,7 @@ Please make sure that the problem hasn't been discussed yet on our forum (<a hre
 
 == Changelog ==
 
-= V1.0.1 - 02.10.2014 =
+= V1.0.1 - 02.10.2014 = 
 * Bugfix : Updating user data no more automatically unsubscribes user from the mailing list.
 
 = V1.0.0 - 11.09.2014 =
